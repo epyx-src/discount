@@ -12,7 +12,7 @@ STRING(struct kw) extratags;
  *
  * Additional tags still need to be allocated, sorted, and deallocated.
  */
-#include "blocktags"
+#include "blocktags.h"
 
 
 /* define an additional html block tag
