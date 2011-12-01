@@ -355,3 +355,8 @@ mkd_ref_prefix(Document *f, char *data)
     if ( f )
 	f->ref_prefix = data;
 }
+
+int mkd_generatexml(char *c, int i, FILE *f)
+{
+    return 0;
+}
